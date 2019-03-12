@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+header{
+	background-image: url("../Photos/pouliniere.jpg");
+	width: 100%;
+	height: 50%;
+}
+.logo{
+	width: 20%;
+	height: 50%;
+	margin-bottom: auto;
+	margin-left: 41%;
+	margin-right: auto;
+	margin-top: 7%;
+}
+.menu {
+ 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  	overflow: hidden;
+  	background-color: white;
+  	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0;
+	border-bottom: 1px solid grey;
+	border-top: 1px solid grey;
+	color: gray;
+}
+li {
+	float: left;
+}
+
+li a {
+  	display: block;
+  	color: black;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+li a:hover {
+  	background-color: #AEAEAE;
+}
+
+.active{
+	background-color: #858585;
+}
